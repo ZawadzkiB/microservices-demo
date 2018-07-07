@@ -12,7 +12,7 @@ services:
     image: weaveworksdemos/edge-router:0.1.1
     ports:
       - '4180:80'
-      - '4182:8080'
+      - '4183:8080'
     cap_drop:
       - all
     cap_add:
